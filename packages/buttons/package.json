@@ -1,6 +1,6 @@
 {
   "name": "@yuai/buttons",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React button components with styled-components",
   "main": "./dist/index.js",
   "repository": "git@github.com:ozylog/yuai.git",
