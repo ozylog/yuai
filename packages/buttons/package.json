@@ -1,0 +1,25 @@
+{
+  "name": "@yuai/buttons",
+  "version": "0.0.0",
+  "description": "React button components with styled-components",
+  "main": "./dist/index.js",
+  "repository": "git@github.com:ozylog/yuai.git",
+  "author": "Cahya Pribadi <ozylog@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/styled-components": "^4.1.18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "yuai-buttons"
+  }
+}

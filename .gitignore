@@ -1,0 +1,24 @@
+# --------------------
+# OSX Files
+# --------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# --------------------
+# Node Files
+# --------------------
+node_modules/
+coverage/
+packages/*/dist
+packages/*/node_modules
+
+# --------------------
+# Other Files
+# --------------------
+.vscode/
+*.log
