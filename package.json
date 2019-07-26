@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "build": "lerna run build",
     "lint": "eslint ./packages/*/src/ --ext .ts --ext .tsx --fix"
   },
