@@ -8,10 +8,10 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "tsc": "tsc"
+    "build": "tsc"
   },
   "peerDependencies": {
-    "react": "^16.8.6",
+    "react": ">=16.8",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {

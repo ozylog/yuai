@@ -1,0 +1,14 @@
+{
+  "name": "yuai",
+  "version": "0.0.0",
+  "description": "Monorepo of simple react components with styled-components",
+  "main": "index.js",
+  "repository": "git@github.com:ozylog/yuai.git",
+  "author": "Cahya Pribadi <ozylog@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "tag": "yuai"
+  }
+}
