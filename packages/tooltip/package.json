@@ -1,0 +1,33 @@
+{
+  "name": "yuai-tooltip",
+  "version": "0.1.0",
+  "description": "React tooltip components with styled-components",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "git@github.com:ozylog/yuai.git",
+  "author": "Cahya Pribadi <ozylog@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "ui-components",
+    "styled-components",
+    "typescript",
+    "tooltip"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8",
+    "styled-components": ">=4.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/styled-components": "^4.1.18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "yuai-tooltip"
+  }
+}
