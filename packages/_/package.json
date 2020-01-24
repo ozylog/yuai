@@ -1,6 +1,6 @@
 {
   "name": "yuai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Monorepo of simple react components with styled-components",
   "repository": "git@github.com:ozylog/yuai.git",
   "author": "Cahya Pribadi <ozylog@gmail.com>",
