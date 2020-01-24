@@ -1,9 +1,9 @@
 # yuai-buttons
-![Travis](https://badgen.net/travis/ozylog/yuai/master)
-![Bundlephobia](https://badgen.net/bundlephobia/minzip/yuai-buttons)
-![David](https://badgen.net/david/peer/ozylog/yuai-buttons)
-![npm](https://badgen.net/npm/v/yuai-buttons)
-![NPM](https://badgen.net/npm/license/yuai-buttons)
+![Build](https://badgen.net/travis/ozylog/yuai/master)
+![Size](https://badgen.net/bundlephobia/minzip/yuai-buttons)
+![PeerDependencies](https://badgen.net/david/peer/ozylog/yuai-buttons)
+![LatestVersion](https://badgen.net/npm/v/yuai-buttons)
+![License](https://badgen.net/npm/license/yuai-buttons)
 
 <!-- ![Coveralls](https://badgen.net/coveralls/c/github/ozylog/vetch/master) -->
 

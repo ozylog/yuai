@@ -1,7 +1,7 @@
 {
-  "name": "yuai-buttons",
+  "name": "yuai-tooltip",
   "version": "0.1.0",
-  "description": "React button components with styled-components",
+  "description": "React tooltip components with styled-components",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": "git@github.com:ozylog/yuai.git",
@@ -16,7 +16,7 @@
     "ui-components",
     "styled-components",
     "typescript",
-    "buttons"
+    "tooltip"
   ],
   "peerDependencies": {
     "react": ">=16.8",
@@ -28,6 +28,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "tag": "yuai-buttons"
+    "tag": "yuai-tooltip"
   }
 }
