@@ -1,6 +1,6 @@
 {
   "name": "yuai-tooltip",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "React tooltip components with styled-components",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

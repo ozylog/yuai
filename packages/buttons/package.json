@@ -1,6 +1,6 @@
 {
   "name": "yuai-buttons",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React button components with styled-components",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
