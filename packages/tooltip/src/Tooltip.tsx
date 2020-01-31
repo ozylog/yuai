@@ -8,6 +8,7 @@ export const enum Position {
 }
 
 interface Props {
+  className?: string;
   content: React.ReactElement;
   position: Position;
 }
@@ -82,7 +83,7 @@ const Tip = styled.span`
   }}
 `;
 
-export default function Tooltip({ children, content, position = Position.BOTTOM_CENTER }: React.PropsWithChildren<Props>) {
+export default function Tooltip({ children, className, content, position = Position.BOTTOM_CENTER }: React.PropsWithChildren<Props>) {
   const [ active, setActive ] = React.useState<boolean>(false);
   const baseRef = React.useRef<HTMLSpanElement>(null);
   const tipRef = React.useRef<HTMLSpanElement>(null);
@@ -112,7 +113,7 @@ export default function Tooltip({ children, content, position = Position.BOTTOM_
   }
 
   return (
-    <Base ref={baseRef} onMouseOver={() => setActive(true)} onMouseOut={() => setActive(false)}>
+    <Base className={className} ref={baseRef} onMouseOver={() => setActive(true)} onMouseOut={() => setActive(false)}>
       {children}
       <Tip className='tooltip' ref={tipRef} active={active} position={position} style={inlineStyle}>{content}</Tip>
     </Base>

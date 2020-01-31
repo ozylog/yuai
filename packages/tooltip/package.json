@@ -27,7 +27,6 @@
     "@types/styled-components": "^4.1.18"
   },
   "publishConfig": {
-    "access": "public",
-    "tag": "yuai-tooltip"
+    "access": "public"
   }
 }
