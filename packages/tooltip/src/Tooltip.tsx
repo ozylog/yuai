@@ -21,20 +21,26 @@ const Tip = styled.span`
   border-radius: 3px;
   color: inherit;
   opacity: 0;
-  padding: 2px 8px;
   pointer-events: none;
   position: absolute;
-  z-index: 1;
-  box-shadow: 0 0 9px #ccc;
+  background: #fff;
 
   &:before {
-    border-bottom: 6px solid #fff;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+    border: 6px solid transparent;
+    border-bottom-color: #e5e5e5;
     content: " ";
     display: inline-block;
     position: absolute;
-    top: -6px;
+    top: -12px;
+  }
+
+  &:after {
+    content: "";
+    top: -10px;
+    border: 5px solid transparent;
+    border-bottom-color: #fff;
+    position: absolute;
+    display: inline-block;
   }
 
   ${({ position, active }: { position: Position; active: boolean }) => {

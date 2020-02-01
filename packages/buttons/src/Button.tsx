@@ -8,7 +8,8 @@ const BaseButton = styled.button`
   -moz-appearance: none;
   margin: 0;
   padding: 5px 9px;
-  border: 1px solid #ccc;
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
   border-radius: 3px;
   font-family: inherit;
   font-size: inherit;
