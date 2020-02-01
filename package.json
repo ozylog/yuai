@@ -6,9 +6,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "lerna-install": "lerna bootstrap",
-    "lerna-build": "lerna run build",
-    "lerna-publish": "lerna run build && lerna publish",
+    "lerna:install": "lerna bootstrap",
+    "lerna:build": "lerna run build",
+    "lerna:publish": "lerna run build && lerna publish",
     "lint": "eslint ./packages/*/src/ --ext .ts --ext .tsx --fix"
   },
   "devDependencies": {
