@@ -24,6 +24,7 @@ const Tip = styled.span`
   pointer-events: none;
   position: absolute;
   background: #fff;
+  border: 1px solid #e5e5e5;
 
   &:before {
     border: 6px solid transparent;
