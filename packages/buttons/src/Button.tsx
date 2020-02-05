@@ -14,6 +14,10 @@ const BaseButton = styled.button`
   font-family: inherit;
   font-size: inherit;
   cursor: pointer;
+
+  &:focus {
+    outline: 0;
+  }
 `;
 
 export default function Button({ children, className, ...others }: React.PropsWithChildren<Props>) {
