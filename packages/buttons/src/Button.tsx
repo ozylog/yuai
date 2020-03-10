@@ -18,6 +18,10 @@ const BaseButton = styled.button`
   &:focus {
     outline: 0;
   }
+
+  &:active {
+    color: inherit;
+  }
 `;
 
 export default function Button({ children, className, ...others }: React.PropsWithChildren<Props>) {

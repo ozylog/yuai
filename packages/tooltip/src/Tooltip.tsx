@@ -122,7 +122,7 @@ export default function Tooltip({ children, className, content, position = Posit
   return (
     <Base className={className} ref={baseRef} onMouseOver={() => setActive(true)} onMouseOut={() => setActive(false)}>
       {children}
-      <Tip className='tooltip' ref={tipRef} active={active} position={position} style={inlineStyle}>{content}</Tip>
+      <Tip className='yuai-tooltip' ref={tipRef} active={active} position={position} style={inlineStyle}>{content}</Tip>
     </Base>
   );
 }

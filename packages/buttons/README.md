@@ -41,7 +41,7 @@ const HelloWorld = () => (<SubmitButton>Submit</SubmitButton>);
 ```
 
 ### ButtonGroup
-```
+```javascript
 // tree shaking
 import Button from 'yuai-buttons/dist/Button';
 import ButtonGroup from 'yuai-buttons/dist/Button';

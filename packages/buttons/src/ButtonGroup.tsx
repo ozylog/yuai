@@ -20,9 +20,12 @@ const BaseButtonGroup = styled.span`
   }
 `;
 
-export default function ButtonGroup({ children, ...others }: React.PropsWithChildren<Props>) {
+export default function ButtonGroup({ children, className, ...others }: React.PropsWithChildren<Props>) {
+  const classNames = ['yuai-button-group'];
+
+  if (className) classNames.push(className);
 
   return (
-    <BaseButtonGroup {...others}>{children}</BaseButtonGroup>
+    <BaseButtonGroup className={classNames.join(' ')} {...others}>{children}</BaseButtonGroup>
   );
 }
