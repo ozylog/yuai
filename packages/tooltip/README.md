@@ -18,10 +18,9 @@ yarn install yuai-tooltip react styled-components
 
 ### Tooltip
 ```javascript
-import { Tooltip, Position } from 'yuai-tooltip';
-
 import * as React from 'react';
 import styled from 'styled-components';
+import { Tooltip, Position } from 'yuai-tooltip';
 
 const StyledTooltip = styled(Tooltip)`
   float: right;
@@ -34,7 +33,6 @@ const StyledTooltip = styled(Tooltip)`
     z-index: 1;
   }
 `;
-
 
 const HelloWorld = () => {
   const content = (

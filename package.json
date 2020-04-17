@@ -2,7 +2,7 @@
   "name": "yuai",
   "description": "Monorepo of simple react components with styled-components",
   "repository": "git@github.com:ozylog/yuai.git",
-  "author": "Cahya Pribadi <ozylog@gmail.com>",
+  "author": "Cahya Pribadi <ozylog@icloud.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
