@@ -13,7 +13,6 @@
     "typescript"
   ],
   "publishConfig": {
-    "access": "public",
-    "tag": "yuai"
+    "access": "public"
   }
 }

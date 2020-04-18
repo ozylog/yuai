@@ -257,6 +257,6 @@ interface Props {
   loader?: JSX.Element;
   onChange?: (option: Option | null) => any;
   onSearch: (keyword: string) => Option[] | Promise<Option[]>;
-  value?: Option;
+  value?: Option | null;
   required?: boolean;
 }
