@@ -12,9 +12,9 @@
   "scripts": {
     "postinstall": "lerna bootstrap",
     "lint": "eslint ./packages/*/src/ --ext .ts --ext .tsx --fix",
-    "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
-    "publish": "yarn lint & lerna run build && lerna publish"
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:build": "lerna run build",
+    "lerna:publish": "yarn lint & lerna run build && lerna publish"
   },
   "devDependencies": {
     "@types/react": "^16.8.23",
