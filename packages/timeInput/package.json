@@ -1,0 +1,35 @@
+{
+  "name": "yuai-time-input",
+  "version": "0.0.0",
+  "description": "React time input components with styled-components",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "git@github.com:ozylog/yuai.git",
+  "author": "Cahya Pribadi <ozylog@icloud.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "ui-components",
+    "styled-components",
+    "typescript",
+    "time-input"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8",
+    "styled-components": ">=4.3.2"
+  },
+  "devDependencies": {
+    "@types/lodash.isequal": "^4.5.5",
+    "@types/react": "^16.8.23",
+    "@types/styled-components": "^4.1.18"
+  },
+  "dependencies": {
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

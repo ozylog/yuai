@@ -205,7 +205,7 @@ export default function Autocomplete(props: React.PropsWithChildren<Props>) {
       onSelectOption(null);
 
       // @ts-ignore
-      inputEl.current?.focus()
+      inputEl.current?.focus();
     }
   }
 
