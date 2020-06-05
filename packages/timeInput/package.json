@@ -1,6 +1,6 @@
 {
   "name": "yuai-time-input",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React time input components with styled-components",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
