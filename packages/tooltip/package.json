@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/react": "^16.8.23",
-    "@types/styled-components": "^4.1.18"
+    "@types/styled-components": "^5.1.0"
   },
   "publishConfig": {
     "access": "public"

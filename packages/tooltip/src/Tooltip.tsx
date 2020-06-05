@@ -97,11 +97,8 @@ export default function Tooltip({ children, className, content, position = Posit
   const inlineStyle: any = {};
 
   if (active && baseRef?.current && tipRef?.current) {
-    // @ts-ignore
     const baseWidth = baseRef.current.offsetWidth;
-    // @ts-ignore
     const baseHeight = baseRef.current.offsetHeight;
-    // @ts-ignore
     const tipWidth = tipRef.current.offsetWidth;
 
     inlineStyle.top = baseHeight;
