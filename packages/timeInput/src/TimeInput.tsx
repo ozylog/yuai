@@ -273,9 +273,10 @@ export default function TimeInput({ className, value: propsValue, onChange, requ
         onChange={(e) => onChangeType(e.target.value)}
         onFocus={() => setIsTypeOnFocus(true)}
         onBlur={() => setIsTypeOnFocus(false)}
+        value={typeValue}
       >
-        <option value={Type.AM} selected={typeValue === Type.AM}>{Type.AM}</option>
-        <option value={Type.PM} selected={typeValue === Type.PM}>{Type.PM}</option>
+        <option value={Type.AM}>{Type.AM}</option>
+        <option value={Type.PM}>{Type.PM}</option>
       </Select>
       {icon}
     </Container>
